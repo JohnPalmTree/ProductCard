@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.perfume {
+  font-size: 18px;
+  font-family: Montserrat;
+  letter-spacing: 4px;
+  color: hsl(228, 12%, 48%);
+}
+
+.product-name {
+  font-size: 32px;
+  margin-top: 18px;
+  line-height: 1;
+  font-weight: 700;
+  font-family: Fraunces;
+}
+
+.desc {
+  font-size: 14px;
+  margin-top: 24px;
+  line-height: 1.6;
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+}
+
+h4 {
+  font-family: Fraunces;
+  font-size: 33px;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+h5 {
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  font-weight: 300;
+  margin-left: 14px;
+  font-size: 14px;
+}
+
+h6 {
+  font-family: Montserrat;
+  color: hsl(0, 0, 100%);
+  font-weight: 400;
+  margin-left: 14px;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.background {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 600px;
+  height: 450px;
+
+  display: flex;
+  justify-content: left;
+  align-items: left;
+
+  overflow: hidden;
+
+  border-radius: 20px;
+}
+
+.product-image {
+  max-width: 50%;
+}
+
+.side-bar {
+  max-width: 50%;
+  padding: 2rem 20px 30px 30px;
+  height: 100%;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 10px;
+  height: 30px;
+}
+
+.purchase-button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-family: Montserrat;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 40px;
+
+  border-width: 0px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.purchase-button:hover {
+  cursor: pointer;
+}
+
+.cartIcon {
+  width: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 5px;
+}
+
+.footer {
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-size: 8px;
+}
